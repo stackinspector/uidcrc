@@ -1,0 +1,12 @@
+[package]
+name = "uidcrc"
+version = "0.1.0"
+edition = "2021"
+authors = ["stackinspector"]
+license = "MPL-2.0"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+nstrcrc = { git = "https://github.com/stackinspector/nstrcrc" }
